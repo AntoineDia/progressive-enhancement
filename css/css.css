@@ -118,6 +118,8 @@ blockquote {
 }
 
 html{
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
 background: -webkit-linear-gradient(-180deg, rgb(255, 158, 0), rgb(0, 128, 255));
 background: linear-gradient(-180deg, rgb(255, 158, 0), rgb(0, 128, 255));
 }
