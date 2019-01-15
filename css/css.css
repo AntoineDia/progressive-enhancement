@@ -14,7 +14,7 @@ body {
   font-family: "open sans";
 }
 
-.premierpara {
+#premierpara {
   font-weight: bold;
 }
 
@@ -23,19 +23,18 @@ header em {
   color: blue;
 }
 
-img {
-  max-width: 100%;
-  width: 50%;
-  margin-bottom: 10px;
-  float: right;
-  margin-left: 15px;
+
+img{
+  width: 480px;
 }
+
 
 #imagefixe {
   position: fixed;
   top: 0;
   right: 0;
-  width: auto;
+  width: 180px;
+  padding: 10px;
 }
 
 p {
@@ -43,51 +42,47 @@ p {
   margin: 0 20px 20px 0;
 }
 
-.histoire li {
-  background-image: url(images/chat.png);
-  font-size: 0.85em;
-  list-style-type: none;
+#histoire {
+  font-size: 0.9em;
   font-style: italic;
+  white-space:pre-wrap;
 }
 
 table {
   border-collapse: collapse;
   border: 1px solid blue;
-  margin-left: 50px;
+  margin: auto;
   margin-bottom: 20px;
   width: 500px;
 }
 
+figure {
+  border: 1px solid black;
+  text-align: center;
+  margin-left: 15px;
+  display: inline-block;
+}
+
 li {
   padding: 7px 25px 7px 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 ul {
   padding-right: 55%;
 }
-li.chat{
+#chat{
   background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-3.9/master/Projets/progressive-enhancement/chat.png?token=AsVNz3P2YDIQ_EzfVmlPLGoewsQb5bVdks5cRucEwA%3D%3D);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
 }
-li.tumbup{
+#tumbup{
   background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-3.9/master/Projets/progressive-enhancement/bien.png?token=AsVNz21Uk8uC_UizPZgI90ObcRot2nQsks5cRuEtwA%3D%3D);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-
-}
-li.tumbdown{
+  }
+#tumbdown{
   background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-3.9/master/Projets/progressive-enhancement/mal.png?token=AsVNz1q3dZkkND30Te_syU89wB0Y1hA2ks5cRubnwA%3D%3D);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
 }
-li.brain{
+#brain{
   background-image: url(https://www.cmplawgroup.com/wp-content/uploads/2018/09/brain-1.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
 }
 
 
@@ -115,10 +110,15 @@ blockquote {
   border-left: 3px solid FireBrick;
   max-width: 50%;
   font-size: 160%;
-  background-color: LightGrey;
+  background-color: Grey;
 }
 
 html{
 background: -webkit-linear-gradient(-180deg, rgb(255, 158, 0), rgb(0, 128, 255));
 background: linear-gradient(-180deg, rgb(255, 158, 0), rgb(0, 128, 255));
+}
+
+.adroite {
+  float: right;
+  padding: 10px;
 }
