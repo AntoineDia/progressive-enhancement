@@ -1,4 +1,124 @@
 body {
+  background-color: rgba(100, 100, 100, 0.3);
   width: 960px;
+  max-width: 90%;
   margin: auto;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 15px;
+  color: white;
+  background-image: url("https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  font-family: "open sans";
+}
+
+.premierpara {
+  font-weight: bold;
+}
+
+header em {
+  background-color: yellow;
+  color: blue;
+}
+
+img {
+  max-width: 100%;
+  width: 50%;
+  margin-bottom: 10px;
+  float: right;
+  margin-left: 15px;
+}
+
+#imagefixe {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: auto;
+}
+
+p {
+  text-align: justify;
+  margin: 0 20px 20px 0;
+}
+
+.histoire li {
+  background-image: url(images/chat.png);
+  font-size: 0.85em;
+  list-style-type: none;
+  font-style: italic;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid blue;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+li {
+  padding: 7px 25px 7px 0;
+}
+ul {
+  padding-right: 55%;
+}
+li.chat{
+  background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-3.9/master/Projets/progressive-enhancement/chat.png?token=AsVNz3P2YDIQ_EzfVmlPLGoewsQb5bVdks5cRucEwA%3D%3D);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+li.tumbup{
+  background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-3.9/master/Projets/progressive-enhancement/bien.png?token=AsVNz21Uk8uC_UizPZgI90ObcRot2nQsks5cRuEtwA%3D%3D);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+li.tumbdown{
+  background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-3.9/master/Projets/progressive-enhancement/mal.png?token=AsVNz1q3dZkkND30Te_syU89wB0Y1hA2ks5cRubnwA%3D%3D);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+li.brain{
+  background-image: url(https://www.cmplawgroup.com/wp-content/uploads/2018/09/brain-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+
+tr:nth-child(even){background-color: white;}
+tr:nth-child(odd){background-color: LightGrey;}
+
+td, th {
+  color: ForestGreen;
+  text-align: center;
+  border: 1px solid blue;
+  width: 250px;
+}
+
+blockquote, q { font-style: italic; }
+
+.bien, .mal { text-transform: uppercase;}
+
+.mal { color: red;}
+.bien { color: blue;}
+
+blockquote {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-left: 30px;
+  border-left: 3px solid FireBrick;
+  max-width: 50%;
+  font-size: 160%;
+  background-color: LightGrey;
+}
+
+html{
+background: -webkit-linear-gradient(-180deg, rgb(255, 158, 0), rgb(0, 128, 255));
+background: linear-gradient(-180deg, rgb(255, 158, 0), rgb(0, 128, 255));
 }
